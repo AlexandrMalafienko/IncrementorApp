@@ -51,10 +51,6 @@ class ViewController: UIViewController {
     
     }
     
-    @IBAction func numberChangeAction(_ sender: UITextField) {
-    
-    }
-    
     @IBAction func resultAction() {
         guard let text = numberTextField.text, let number = Int(text) else { return }
         if incrementor.maxValue == number { return }
