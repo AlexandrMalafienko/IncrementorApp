@@ -29,7 +29,7 @@ class Incrementor {
         }
     }
     
-    /// Increases the current number by 1. If the maximum value Int is exceeded, the value will be 0.
+    /// Increases the current number by 1. If the maximum value Int is exceeded, the value will be 0 and If the value is less than zero, the value will be reset.
     
     func incrementNumber() {
         var newValue = value + 1
